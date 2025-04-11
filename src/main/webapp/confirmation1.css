@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	
+	margin: 0;
+	padding: 0;
+	font-family: poppins,sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    position: relative; 
+    background-image: url('reg&log/wp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top:150px;
+    
+}
+
+.confirmation-container {
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    padding: 40px;
+    max-width: 700px;
+    margin: 20px auto;
+    height:400px;
+}
+
+.confirmation-container h1 {
+    color: #4CAF50;
+    margin-bottom:30px;
+}
+
+.order-details {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.order-details p {
+    margin: 60px 0;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+.confirmation-container .btns{
+	border:2px solid white;
+	padding:10px; 
+	color:white;
+	border-radius:5px;
+	margin-top:10px;
+	background-color:green;
+	font-size:15px;	
+	font-weight:bold;
+	
+}
+.confirmation-container .opt{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:10px;
+}
+.confirmation-container .btns:hover{
+	border:2px solid green;
+	color:green;
+	
+	background-color:white;
+	
+	
+}
